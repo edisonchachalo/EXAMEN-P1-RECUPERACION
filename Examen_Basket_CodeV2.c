@@ -89,6 +89,7 @@ int main(int argc, char *argv[])
     printf("\n== THE BEST ==\n");
     printf("El mejor jugador es: %s\n", nombre[theBest]);
     printf("Promedio de Anotaciones: %.2f\n", promedio[theBest]);
+    printf("\n");
 
     return 0;
 }
