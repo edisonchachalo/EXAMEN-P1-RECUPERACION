@@ -83,12 +83,12 @@ int main(int argc, char *argv[])
     printf("#\tNombre\t\tP1\tP2\tP3\tP4\tPromedio\n");
     for (int i = 0; i < 5; i++)
     {
-        printf("%d\t%s\t\t%d\t%d\t%d\t%d\t%.2f\n", i + 1, nombre[i], puntos[1][0], puntos[1][1], puntos[1][2], puntos[1][3], promedio[i]);
+        printf("%d\t%s\t\t%d\t%d\t%d\t%d\t%.2f\n", i + 1, nombre[i], puntos[i][0], puntos[i][1], puntos[i][2], puntos[i][3], promedio[i]);
     }
 
     printf("\n== THE BEST ==\n");
     printf("El mejor jugador es: %s\n", nombre[theBest]);
-    printf("Promedio de Anotacioes: %.2f\n", promedio[theBest]);
+    printf("Promedio de Anotaciones: %.2f\n", promedio[theBest]);
 
     return 0;
 }
